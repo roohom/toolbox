@@ -57,7 +57,7 @@ public class KuduAgent {
      *
      * @param table    kudu表名
      * @param client   kuduClient
-     * @param entities
+     * @param entities 一个装KuduColumns Bean对象的空list
      * @return
      */
     public List<Map<String, Object>> select(String table, KuduClient client, List<KuduColumn> entities) {

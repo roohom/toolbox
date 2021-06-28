@@ -164,7 +164,7 @@ public class KuduColumn {
                 ",\n newColumnName='" + newColumnName + '\'' +
                 ",\n comparisonOp=" + comparisonOp +
                 ",\n comparisonValue=" + comparisonValue +
-                ",\n isSelect=" + isSelect +
+                ",\n isSelect=" + isSelect + "\n" +
                 '}';
     }
 
